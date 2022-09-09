@@ -8,13 +8,132 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url("cooper_snow_resized2.png");
+    background-image: url("Cooper_snowpic2-removebg.png");
     background-color: #5D76A9;
     background-size: cover;
     background-position: center;
 
 
 }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logo{
+    color: #12173F;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+span{
+    color: #F5B112;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: #12173F;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul li a:hover{
+    color: #F5B112;
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: #12173F;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+
+h3{
+    color:#12173F;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color:#F5B112;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+
+.walkingpic{
+    height: 550px;
+    width: 430px;
+    border: 2px solid #F5B112;
+    border-radius: 10px;
+}
+
+.about {
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #12173F;
+
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: #5D76A9;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: #5D76A9;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #5D76A9;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
 
 
 
