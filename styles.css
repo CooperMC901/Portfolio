@@ -205,7 +205,46 @@ h5 {
     cursor: pointer;
 }
 
+.contactme{
+    width: 100%;
+    height: 290px;
+    background-color: #12173F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.contactme p{
+    color: #F5B112;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contactme .button-two {
+    background-color: #5D76A9;
+    color: #F5B112;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.contactme .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #F5B112;
+    cursor: pointer;
+
+}
+
+.social img{
+    width: 50px;
+    height: 50px;
+}
 
 
 
