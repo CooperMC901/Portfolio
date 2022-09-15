@@ -90,6 +90,7 @@ h4{
     width: 430px;
     border: 2px solid #F5B112;
     border-radius: 10px;
+    display:none;
 }
 
 .about {
@@ -615,6 +616,74 @@ footer p{
     }
 
 }
+
+@media only screen and (max-width:450px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+        flex-direction: column-reverse;
+    
+    }
+
+    .logo{
+        color: #12173F;
+        font-size: 40px;
+        letter-spacing: 1px;
+        display:none
+    
+    }
+
+    h3{
+        color:#F5B112;
+        font-size: 16px;
+        width: 10px;
+        line-height: 25px;
+    }
+
+
+}
+
+@media only screen and (max-width:390px) {
+
+    footer p{
+        font-size: 14px;
+        color: #12173F;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    h4{
+        color:#F5B112;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: normal;
+        margin-top: 20px;
+    }
+
+    h1{
+        color: #12173F;
+        margin: 20px 0px 20px;
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+    h3{
+        color:#F5B112;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+
+
+}
+
+
+
 
 
 
